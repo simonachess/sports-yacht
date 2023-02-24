@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sports-yacht/static/css/main.b1daf265.css",
+    "main.js": "/sports-yacht/static/js/main.1519fed5.js",
+    "static/media/header.png": "/sports-yacht/static/media/header.4d8498fa2d80e47afa09.png",
+    "index.html": "/sports-yacht/index.html",
+    "main.b1daf265.css.map": "/sports-yacht/static/css/main.b1daf265.css.map",
+    "main.1519fed5.js.map": "/sports-yacht/static/js/main.1519fed5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1daf265.css",
+    "static/js/main.1519fed5.js"
+  ]
+}
