@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.infotext-container {
+    white-space: initial;
+}
+
+.infotext-container p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.uppercase-word {
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+    transition: 1.5s all ease;
+}
+
+.reveal.from-left {
+    transform: translateX(-300px);
+}
+
+.reveal.from-right {
+    transform: translateX(300px);
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+@keyframes scroll-to-left {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-348px * 4))}
+}
+
+@keyframes scroll-to-right {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(348px * 4))}
+}
+
+
+.slider {
+
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 100%;
+}
+.slider::before,
+.slider::after {
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+
+	.slider::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	.slider::before {
+		left: 0;
+		top: 0;
+	}
+
+	.slide-track-to-left {
+		animation: scroll-to-left 40s linear infinite;
+		display: flex;
+	}
+
+	.slide-track-to-right {
+		animation: scroll-to-right 40s linear infinite;
+		display: flex;
+	}
+
+	.slide {
+		height: 228px;
+		width: 348px;
+		padding-right: 20px;
+	}
+
+@keyframes rotating {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+	}
+
+.rotating {
+	animation: rotating 1s linear infinite;
+}
