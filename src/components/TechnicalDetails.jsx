@@ -10,7 +10,7 @@ const dottedLine = "py-2.5 overflow-hidden after:inline-block after:h-[1px] afte
         <div className="flex flex-col w-full">
             <div className='relative lg:-top-32'>
                 <div className="mb-16">
-                    <img src="/img/boat1.png" alt="structural details"></img>
+                    <img src="img/boat1.png" alt="structural details"></img>
                 </div>
                 <h3 className="text-4xl font-medium mb-20 text-center">Structural</h3>
                 <table className="w-full mb-20">
@@ -60,7 +60,7 @@ const dottedLine = "py-2.5 overflow-hidden after:inline-block after:h-[1px] afte
                     </tr>
                 </table>
                 <div>
-                    <img src="/img/ship3.png" alt="mechanical details"></img>
+                    <img src="img/ship3.png" alt="mechanical details"></img>
                 </div>
             </div>
         </div>
@@ -104,7 +104,7 @@ const dottedLine = "py-2.5 overflow-hidden after:inline-block after:h-[1px] afte
                     </tr>
                 </table>
                 <div className="mb-9">
-                    <img src="/img/Ship2.png" alt="mechanical details"></img>
+                    <img src="img/Ship2.png" alt="mechanical details"></img>
                 </div>
             </div>
             <div className="flex flex-col items-center mb-20 lg:pl-24 pr-8">

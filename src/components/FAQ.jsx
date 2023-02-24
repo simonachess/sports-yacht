@@ -15,7 +15,7 @@ const FAQ = () => {
                 )}
             </div>
             <div className="w-full px-24 flex justify-center">
-                <img src="/img/Nuotrauka5.png" alt="Boat front" />
+                <img src="img/Nuotrauka5.png" alt="Boat front" />
             </div>
         </div>
     </section>

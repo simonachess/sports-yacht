@@ -28,7 +28,7 @@ const Header = () => {
     <header className="bg-[url('/public/img/header.png')] bg-cover bg-center px-9 pb-16 relative">
         <div className="lg:px-[76px]">
             <div className="flex justify-between py-14">
-                <img src="/img/logo.png" alt="Yacht Services" width="292" height="120"/>
+                <img src="img/logo.png" alt="Yacht Services" width="292" height="120"/>
                 <div className="cursor-pointer">
                     <MenuIcon onClick={() => setShowMenuModal(true)}/>
                 </div>

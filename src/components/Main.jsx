@@ -32,7 +32,7 @@ const Main = () => {
         <div className="relative">
 
             <div className="flex justify-center w-full">
-                <img src="/img/Nuotrauka2.png" alt="boat" className='relative'></img>
+                <img src="img/Nuotrauka2.png" alt="boat" className='relative'></img>
                 <div className="z-10 absolute top-0 flex flex-col items-center w-full h-[86%] pt-[3%] justify-between">
                 <div className={classNames(rightText, 'from-right left-[20%] lg:left-[15%]')}>
                     <p className={titleTextClasses}>Name</p>
